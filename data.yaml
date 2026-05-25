@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['big box', 'small box']
+
+roboflow:
+  workspace: ayu-sarah
+  project: box-sortation
+  version: 10
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ayu-sarah/box-sortation/dataset/10
